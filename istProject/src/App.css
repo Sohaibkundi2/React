@@ -8,10 +8,10 @@
 }
 
 
-.box {
+.container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: last baseline;
   gap: 20px;
   height: 100vh;
   outline: none;
@@ -19,11 +19,21 @@
   width: 100%;
   flex-wrap: wrap;
 }
+.box{
+  background: fuchsia;
+  padding: 10px 25px;
+  margin-bottom: 50px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 20px rgb(244, 0, 244);
+}
 
 .btn {
   padding: 10px 25px;
-  border-radius: 10%;
+  margin: 10px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 20px rgb(194, 2, 194);
   outline: none;
   font-size: 20px;
   font-weight: 500;
+  border: 1px solid fuchsia;
 }
