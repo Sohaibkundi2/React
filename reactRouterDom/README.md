@@ -1,12 +1,28 @@
-# React + Vite
+# React Router Dom Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This project demonstrates a React application using React Router Dom for client-side routing and Tailwind CSS for styling. It features a basic layout with a Header and Footer, and includes routing for Home, About, Contact, Github, and User pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React Router Dom** for seamless navigation
+- **Tailwind CSS** for utility-first styling
+- **Reusable Layout** with Header and Footer
+- **Dynamic User Page** using route parameters
+- **Github Page** with data fetched from the GitHub API
+
+---
+
+📝 Routing Overview
+- **header and footer are in all routes** 
+- / – Home page
+- /about – About page
+- /contact – Contact page
+- /github – Github profile page (fetches user data)
+- /user/:userid – Dynamic User page
+
+
+ ## Author
+- Sohaib Khan
